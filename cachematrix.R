@@ -4,7 +4,6 @@
 ## allows caching of its inverse, rahter than re-calculating it every time it is
 ## needed.
 
-
 ## Create a new custom matrix object which is able to cache its inverse.
 makeCacheMatrix <- function(x = matrix()) {
     
@@ -33,7 +32,6 @@ makeCacheMatrix <- function(x = matrix()) {
        , setInverse = setInverse
        , getInverse = getInverse)
 }
-
 
 ## Calculate the inverse of the matrix. If the inverse has already been 
 ## calculated then it will fetch the cached result.
